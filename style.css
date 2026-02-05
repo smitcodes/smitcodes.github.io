@@ -156,3 +156,75 @@ section p, ul li {
         font-size: 2.4rem;
     }
 }
+
+/* ------------------------- */
+/*        MOBILE FIXES       */
+/* ------------------------- */
+@media (max-width: 600px) {
+
+    body {
+        padding: 0 10px;
+        background-position: center;
+    }
+
+    header {
+        padding: 28px 18px;
+        margin-top: 25px;
+        border-radius: 16px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    header h3 {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    section {
+        padding: 22px 18px;
+        margin: 25px auto;
+        border-radius: 14px;
+    }
+
+    section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    section h3 {
+        font-size: 1.05rem;
+        margin-top: 10px;
+    }
+
+    section p,
+    section ul li {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+    }
+
+    .links a {
+        display: inline-block;
+        margin: 8px 6px;
+        font-size: 0.9rem;
+    }
+
+    /* Typing text fix (prevent overflow) */
+    .typing {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+
+    /* Particles softer on mobile */
+    #particles {
+        opacity: 0.5;
+    }
+
+    /* Reduce blur / glow for performance */
+    section,
+    header {
+        backdrop-filter: blur(10px);
+    }
+}
