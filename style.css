@@ -15,79 +15,81 @@ color: #202124;
 
 /* CONTAINER */
 .container {
-max-width: 750px;
+max-width: 700px;
 margin: 40px auto;
 padding: 0 20px;
 }
 
 /* HEADER */
 header {
-margin-bottom: 30px;
+margin-bottom: 25px;
 }
 
 header h1 {
-font-size: 32px;
+font-size: 26px;
 font-weight: 600;
 }
 
 .role {
+font-size: 15px;
 color: #5f6368;
-margin: 5px 0;
+margin-top: 4px;
 }
 
 .info {
+font-size: 13px;
 color: #5f6368;
-font-size: 14px;
+margin-top: 4px;
 }
 
 /* LINKS */
 .links {
-margin-top: 10px;
+margin-top: 8px;
 }
 
 .links a {
-margin-right: 15px;
-font-size: 18px;
+margin-right: 12px;
+font-size: 16px;
 color: #5f6368;
-transition: 0.2s;
 }
 
 .links a:hover {
-color: #1a73e8; /* Google blue */
+color: #1a73e8;
 }
 
 /* SECTIONS */
 section {
-margin-bottom: 30px;
+margin-bottom: 22px;
 }
 
 h2 {
-font-size: 18px;
-margin-bottom: 10px;
+font-size: 16px;
+font-weight: 600;
+margin-bottom: 8px;
 border-bottom: 1px solid #e0e0e0;
-padding-bottom: 5px;
+padding-bottom: 4px;
 }
 
 /* TEXT */
 p {
-margin: 5px 0;
-font-size: 14px;
+font-size: 13px;
+margin: 3px 0;
 }
 
 /* PROJECTS */
 .project {
-margin-bottom: 10px;
+margin-bottom: 8px;
 }
 
 .project h3 {
-font-size: 15px;
+font-size: 14px;
 font-weight: 500;
 }
 
 /* FOOTER */
 footer {
 text-align: center;
-font-size: 13px;
+font-size: 12px;
 color: #9aa0a6;
-margin-top: 40px;
+margin-top: 30px;
 }
